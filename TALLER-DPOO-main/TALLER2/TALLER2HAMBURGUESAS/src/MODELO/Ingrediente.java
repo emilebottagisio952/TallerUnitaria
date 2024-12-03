@@ -1,0 +1,39 @@
+package MODELO;
+
+public class Ingrediente{
+	
+	/*Attributes*/
+	
+	private String nombre;
+	private int costoAdicional;
+	private int calorias;
+	
+	/*Constructor*/
+	
+	public Ingrediente (String nombre, int costoAdicional, int calorias) {
+		
+		this.nombre=nombre;
+		this.costoAdicional=costoAdicional;
+		this.calorias=calorias;
+		
+	}
+	
+	/*Methods*/
+	
+	public String getNombre() {
+		
+		return nombre;
+	}
+	
+	public int getPrecio() {
+		
+		return costoAdicional;
+	}
+	
+	public int getCalorias() {
+		
+		return calorias;
+	}
+}
+
+	
